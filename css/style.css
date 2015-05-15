@@ -139,7 +139,11 @@ body {
 .profile-card h4 {
   font-weight: 400;
   color: #3d3d3d;
+<<<<<<< HEAD
   font-size: 28px;
+=======
+  font-size: 30px;
+>>>>>>> master
   line-height: 26px;
 }
 .profile-card h4 span {
@@ -214,6 +218,7 @@ body {
   color: #333333;
 }
 
+<<<<<<< HEAD
 .panel-white h2 {
   line-height: 35px;
   margin-top: -2px;
@@ -221,6 +226,8 @@ body {
   font-size: 30px;
 }
 
+=======
+>>>>>>> master
 .author-social ul {
   text-align: center;
   list-style: none outside none;
@@ -305,6 +312,7 @@ body {
     vertical-align: middle; }
 
 .info h4 {
+<<<<<<< HEAD
   font-size: 22px;
   letter-spacing: 0px;
   text-transform: none; }
@@ -313,6 +321,15 @@ body {
   font-size: 16px;
   padding-top: 10px;
   line-height: 20px }
+=======
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+.info p {
+  color: #717171;
+  font-size: 16px;
+  padding-top: 10px; }
+>>>>>>> master
 .info a {
   border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -415,7 +432,11 @@ h6.byline .label {
   margin-bottom: 1.25rem;
   background: #ffffff;
   color: #333333;
+<<<<<<< HEAD
   }
+=======
+  border-bottom: 0.3125em solid #de0d0f; }
+>>>>>>> master
   .article-card .card-content {
     background: #fff;
     margin: 1.25rem; }
@@ -444,6 +465,7 @@ h6.byline .label {
       border-radius: 50%;
       margin-top: -3rem; }
 
+<<<<<<< HEAD
 .article-card.protect {
   border-bottom: 0.3125em solid #439B4A; }
 .article-card.defeat {
@@ -463,4 +485,7 @@ h6.byline .label {
       text-decoration: none; }
    a.hideLink {
       text-decoration: none;}
+=======
+
+>>>>>>> master
               
