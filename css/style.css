@@ -139,7 +139,7 @@ body {
 .profile-card h4 {
   font-weight: 400;
   color: #3d3d3d;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 26px;
 }
 .profile-card h4 span {
@@ -212,6 +212,13 @@ body {
   padding: 1.25rem;
   background: #ffffff;
   color: #333333;
+}
+
+.panel-white h2 {
+  line-height: 35px;
+  margin-top: -2px;
+  padding-bottom: 15px;
+  font-size: 30px;
 }
 
 .author-social ul {
@@ -298,13 +305,14 @@ body {
     vertical-align: middle; }
 
 .info h4 {
-  font-size: 26px;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  font-size: 22px;
+  letter-spacing: 0px;
+  text-transform: none; }
 .info p {
   color: #717171;
   font-size: 16px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  line-height: 20px }
 .info a {
   border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -407,7 +415,7 @@ h6.byline .label {
   margin-bottom: 1.25rem;
   background: #ffffff;
   color: #333333;
-  border-bottom: 0.3125em solid #de0d0f; }
+  }
   .article-card .card-content {
     background: #fff;
     margin: 1.25rem; }
@@ -436,5 +444,23 @@ h6.byline .label {
       border-radius: 50%;
       margin-top: -3rem; }
 
+.article-card.protect {
+  border-bottom: 0.3125em solid #439B4A; }
+.article-card.defeat {
+  border-bottom: 0.3125em solid #DB141E; }
+.article-card.rebuild {
+  border-bottom: 0.3125em solid #1FA9C0; }
+.article-card.help {
+  border-bottom: 0.3125em solid #EE7B24; }
+.article-card.news {
+  border-bottom: 0.3125em solid #9600b4; }
 
+
+  /* This CSS is used for the Show/Hide functionality. */
+   .more {
+      display: none; }
+   a.showLink, a.hideLink {
+      text-decoration: none; }
+   a.hideLink {
+      text-decoration: none;}
               
